@@ -1,0 +1,167 @@
+/*
+Theme Name: Cogito-course
+Author: Mateusz Polaszek
+Description: Theme for matura's courses with CMM(WordPress)
+Version: 0.0.1
+Tags:  
+*/
+body {
+ margin: 0px;
+ padding: 0px;
+
+}
+/* TOP */
+
+.top {
+}
+.logo {
+	float: left;
+}
+.top-right {
+	float: right;
+}
+.user {
+	display: block;
+	padding: 8px;
+}
+.input-boxes {
+	float: right;
+}
+.user input {
+	display: block;
+}
+.user input[type="button"] {
+	float: right;
+}
+.nav {
+	padding-right: 8px;
+
+}
+.nav ul {
+	float: right;
+
+
+}
+.nav ul li {
+	position: relative;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	border-left: 1.5px solid #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+.nav ul li a {
+	text-decoration: none;
+	color : black;
+}
+.nav ul li:hover {
+}
+
+/*=========================================*/
+
+/* CONTENT */
+
+.content {
+	padding: 1.5em;
+	
+}
+/*=========================================*/
+
+/* BOTTOM */
+
+.bottom {
+background-color: #666666;
+height: 15em;
+}
+.footer {
+color: white;
+text-align: center;
+font-size: 0.75em;
+background-color: #616161;
+margin-bottom: 0;
+height: 1.5em;
+}
+.contact-form {
+	float: right;
+	padding-right: 5px;
+}
+.contact-form input {
+	display: block;
+	background-color: #555555;
+	border:0px;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: 1em;
+	color: #bbb;
+	padding: 0.3em;
+
+}
+.contact-form input[type="button"] {
+	float: right;
+
+}
+.tresc {
+	height: 60px;
+	text-align: left;
+}
+.contact-form h1 {
+	color: #313838;
+	background-color: #ff5c33;
+	border-radius: 2px;
+	font-family: sans-serif;
+	font-size: 1.4em;
+	margin-top: 9px;
+}
+.social-media {
+	float: left;
+}
+.fb, .tt, .inst {
+
+	height: 10em;
+	width: 9em;
+	background-color: black;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+	margin-left: 1.5em;
+	float: left;
+	padding-top: 2.5em;
+	border-radius: 4px;
+}
+.fb {
+	background-color: #3b5998;
+	color: white;
+	text-align: center;
+}
+.tt {
+	background-color: #4099FF;
+	color: white;
+	text-align: center;
+}
+.inst {
+	background-color: white;
+	text-align: center;
+
+}
+.inst i, .fb i, .tt i {
+	font-size: 6em;
+
+}
+.fb:hover {
+	background-color: #2a4887;
+}
+.tt:hover {
+	background-color: #2988dd;
+}
+.inst:hover {
+	background-color: #eeeeee;
+
+}
+
+/*=========================================*/
+
+.clear {
+	clear: both;
+}
